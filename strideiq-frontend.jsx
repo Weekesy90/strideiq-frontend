@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 
 // ⬇️ After deploying your backend, paste its URL here
-const DEFAULT_BACKEND = "http://localhost:3001";
+const DEFAULT_BACKEND = "https://backend-ltv2-production.up.railway.app";
 
 function predictRaceTime(avgPaceSecPerKm, refDistKm, targetDistanceKm) {
   const t1 = avgPaceSecPerKm * refDistKm;
